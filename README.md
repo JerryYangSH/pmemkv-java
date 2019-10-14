@@ -1,4 +1,6 @@
-This is just a mirror of [pmemkv-java](https://github.com/pmem/pmemkv-java)  plus my customized change 
-This is just for test purpose.
+This is just a mirror of [pmemkv-java](https://github.com/pmem/pmemkv-java)  plus my customized changes.
+
+This is just for test purpose only.
+
 Changes : 
-* Fixed Example/BasicExample.java to support variable engine test and repeatable run. -2019/10/14
+* Fixed examples/BasicExample.java to support variable engine test and repeatable run. 2019/10/14
