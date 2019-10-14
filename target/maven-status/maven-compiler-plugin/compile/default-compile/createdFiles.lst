@@ -1,0 +1,10 @@
+io/pmem/pmemkv/GetKeysByteArraysCallback.class
+io/pmem/pmemkv/Database.class
+io/pmem/pmemkv/GetKeysStringsCallback.class
+io/pmem/pmemkv/GetKeysBuffersCallback.class
+io/pmem/pmemkv/internal/GetAllBufferJNICallback.class
+io/pmem/pmemkv/internal/GetKeysBuffersJNICallback.class
+io/pmem/pmemkv/GetAllByteArrayCallback.class
+io/pmem/pmemkv/GetAllStringCallback.class
+io/pmem/pmemkv/DatabaseException.class
+io/pmem/pmemkv/GetAllBufferCallback.class

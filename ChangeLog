@@ -1,0 +1,14 @@
+Fri Oct 04 2019 Szymon Romik <szymon.romik@intel.com>
+
+	* Version 0.9
+
+	This release adjusts pmemkv-java to work with pmemkv 1.0
+
+Fri Jun 28 2019 Szymon Romik <szymon.romik@intel.com>
+
+	* Version 0.8
+
+	This is the first official release of pmemkv-java project.
+
+        It provides Java bindings to libpmemkv 0.8 with simplified API and not
+        functionally equal to its native C/C++ counterpart.

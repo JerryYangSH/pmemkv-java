@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="io.pmem.pmemkv.tests.DatabaseTest" time="0.267" tests="29" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="12"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/jerry/.m2/repository/org/apache/maven/surefire/surefire-booter/2.22.1/surefire-booter-2.22.1.jar:/home/jerry/.m2/repository/org/apache/maven/surefire/surefire-api/2.22.1/surefire-api-2.22.1.jar:/home/jerry/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.22.1/surefire-logger-api-2.22.1.jar:/home/jerry/opensources/pmemkv-java/target/test-classes:/home/jerry/opensources/pmemkv-java/target/classes:/home/jerry/.m2/repository/com/mscharhag/oleaster/oleaster-matcher/0.2.0/oleaster-matcher-0.2.0.jar:/home/jerry/.m2/repository/junit/junit/4.13-beta-3/junit-4.13-beta-3.jar:/home/jerry/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/jerry/.m2/repository/org/mockito/mockito-all/2.0.2-beta/mockito-all-2.0.2-beta.jar:/home/jerry/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.22.1/surefire-junit4-2.22.1.jar"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="Unknown"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="12"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-12-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /home/jerry/opensources/pmemkv-java/target/surefire 2019-10-10T08-52-40_702-jvmRun1 surefire15958224412513429668tmp surefire_06182921151092960616tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/jerry/opensources/pmemkv-java/target/test-classes:/home/jerry/opensources/pmemkv-java/target/classes:/home/jerry/.m2/repository/com/mscharhag/oleaster/oleaster-matcher/0.2.0/oleaster-matcher-0.2.0.jar:/home/jerry/.m2/repository/junit/junit/4.13-beta-3/junit-4.13-beta-3.jar:/home/jerry/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/jerry/.m2/repository/org/mockito/mockito-all/2.0.2-beta/mockito-all-2.0.2-beta.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/jerry"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-07-16"/>
+    <property name="java.home" value="/usr/lib/jvm/java-12-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/jerry/opensources/pmemkv-java"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="12.0.2+9-Ubuntu-119.04"/>
+    <property name="user.name" value="jerry"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.0.0-31-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/jerry/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="Unknown"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="12.0.2"/>
+    <property name="user.dir" value="/home/jerry/opensources/pmemkv-java"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/usr/local/lib:/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="java.vm.version" value="12.0.2+9-Ubuntu-119.04"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="56.0"/>
+  </properties>
+  <testcase name="usesGetAllAboveTest" classname="io.pmem.pmemkv.tests.DatabaseTest" time="0.033"/>
+  <testcase name="usesGetKeysAboveTest" classname="io.pmem.pmemkv.tests.DatabaseTest" time="0.009"/>
+  <testcase name="throwsExceptionOnStartWhenConfigIsMalformedTest" classname="io.pmem.pmemkv.tests.DatabaseTest" time="0.002"/>
+  <testcase name="usesGetAllBelowTest" classname="io.pmem.pmemkv.tests.DatabaseTest" time="0.008"/>
+  <testcase name="usesGetKeysBelowTest" classname="io.pmem.pmemkv.tests.DatabaseTest" time="0.008"/>
+  <testcase name="usesCountTest" classname="io.pmem.pmemkv.tests.DatabaseTest" time="0.009"/>
+  <testcase name="putsMultipleValuesTest" classname="io.pmem.pmemkv.tests.DatabaseTest" time="0.005"/>
+  <testcase name="startEngineTest" classname="io.pmem.pmemkv.tests.DatabaseTest" time="0.004"/>
+  <testcase name="usesGetAllTest" classname="io.pmem.pmemkv.tests.DatabaseTest" time="0.007"/>
+  <testcase name="usesGetKeysBetweenTest" classname="io.pmem.pmemkv.tests.DatabaseTest" time="0.011"/>
+  <testcase name="putsComplexValueTest" classname="io.pmem.pmemkv.tests.DatabaseTest" time="0.005"/>
+  <testcase name="putsBinaryValueTest" classname="io.pmem.pmemkv.tests.DatabaseTest" time="0.003"/>
+  <testcase name="throwsExceptionOnStartWhenEngineIsInvalidTest" classname="io.pmem.pmemkv.tests.DatabaseTest" time="0.001"/>
+  <testcase name="putsEmptyKeyTest" classname="io.pmem.pmemkv.tests.DatabaseTest" time="0.005"/>
+  <testcase name="putsBinaryKeyTest" classname="io.pmem.pmemkv.tests.DatabaseTest" time="0.004"/>
+  <testcase name="usesGetKeysTest" classname="io.pmem.pmemkv.tests.DatabaseTest" time="0.01"/>
+  <testcase name="throwsExceptionOnStartWhenConfigIsEmptyTest" classname="io.pmem.pmemkv.tests.DatabaseTest" time="0.001"/>
+  <testcase name="throwsExceptionOnStartWhenPathIsInvalidTest" classname="io.pmem.pmemkv.tests.DatabaseTest" time="0.001"/>
+  <testcase name="putsUtf8KeyTest" classname="io.pmem.pmemkv.tests.DatabaseTest" time="0.003"/>
+  <testcase name="usesBuffersTest" classname="io.pmem.pmemkv.tests.DatabaseTest" time="0.006"/>
+  <testcase name="stopsEngineMultipleTimesTest" classname="io.pmem.pmemkv.tests.DatabaseTest" time="0.002"/>
+  <testcase name="blackholeTest" classname="io.pmem.pmemkv.tests.DatabaseTest" time="0"/>
+  <testcase name="putsUtf8ValueTest" classname="io.pmem.pmemkv.tests.DatabaseTest" time="0.003"/>
+  <testcase name="putsBasicValueTest" classname="io.pmem.pmemkv.tests.DatabaseTest" time="0.003"/>
+  <testcase name="throwsExceptionOnStartWhenPathIsWrongTypeTest" classname="io.pmem.pmemkv.tests.DatabaseTest" time="0"/>
+  <testcase name="usesGetAllBetweenTest" classname="io.pmem.pmemkv.tests.DatabaseTest" time="0.009"/>
+  <testcase name="putsOverwritingExistingValueTest" classname="io.pmem.pmemkv.tests.DatabaseTest" time="0.003"/>
+  <testcase name="putsEmptyValueTest" classname="io.pmem.pmemkv.tests.DatabaseTest" time="0.004"/>
+  <testcase name="getsMissingKeyTest" classname="io.pmem.pmemkv.tests.DatabaseTest" time="0.003"/>
+</testsuite>
